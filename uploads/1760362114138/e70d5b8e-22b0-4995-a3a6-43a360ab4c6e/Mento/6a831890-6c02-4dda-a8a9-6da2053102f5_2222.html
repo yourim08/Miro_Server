@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        #container {
+            border-radius: 20px;
+            box-shadow: 1px 1px 10px rgb(186, 186, 186);
+            width: 550px;
+            height: 550px;
+        }
+
+        #profileImg {
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            padding: 55px;
+        }
+
+        .info {
+            float: right;
+            padding-right: 90px;
+            padding-top: 60px;
+        }
+
+        h1 {
+            line-height: 0;
+        }
+
+        #marker {
+            width: 17px;
+            height: 25px;
+        }
+
+        span {
+            line-height: 2;
+            color: rgb(24, 153, 196);
+            font-size: 1rem;
+        }
+
+        button {
+            color: white;
+            background-color: rgb(51, 190, 255);
+            border: 0px;
+            display: flex;
+            width: 110px;
+            height: 40px;
+            text-align: center;
+            justify-content: center;
+            font-size: 15px;
+            padding: 10px 20px 10px 20px;
+            box-shadow: 1px 1px 5px rgb(98, 195, 255);
+        }
+
+        #list-container{
+            font-size: 1.2em;
+            line-height: 2;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .detail {
+            display: inline-block;
+            padding-left: 40px;
+            font-weight: 700;
+        }
+
+        .detail-answer {
+            float: right;
+            padding-right: 120px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <img src="./profileImg.png" id="profileImg">
+
+        <div class="info">
+            <h1>Jeon YuLim</h1>
+            <p>FrontEnd Developer</p>
+            <img src="./Marker.png" id="marker">
+            <span>서울 강동구</span>
+            <button>Contact</button>
+        </div>
+
+        
+        <div id="list-container">
+            <div class="detail">
+                <ul>
+                    <li>Location</li>
+                    <li>Age</li>
+                    <li>Experience</li>
+                    <li>School</li>
+                </ul>
+            </div>
+
+            <div class="detail-answer">
+                <ul>
+                    <li>서울 강동구</li>
+                    <li>11년생</li>
+                    <li>신입</li>
+                    <li>천조국대 토목학과</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
