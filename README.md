@@ -7,5 +7,4 @@
 <ul>
   <li><b>Back : Nest.js</b></li>
   <li><b>DB</b> : FireBase </li>
-  <li><b>Api & Lib</b> : Google Gemini API </li>
 </ul>
